@@ -1,0 +1,63 @@
+/* Selector {
+        propiedad:valor;
+} */
+
+body {
+    background-color: rgb(249, 246, 246);
+    
+    /*color-para el color del texto  */
+    color: rgb(6, 1, 1);
+    
+    /* font- para cambiar la tipografia del texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    /* para editar todos los elementos h1 */
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color:rgb(15, 3, 84);
+}
+
+a{
+    /* Para las anclas */
+    color: rgb(255, 47, 47);
+    display: flex;
+    padding-left: 50px;
+}
+
+
+
+/* tambien se puede hacer con poercentajes, dependiendo de cuanto es el tamaño de la pantalla */
+/*  
+img{
+        width: 50%;
+        height: 50%;
+    }
+*/
+
+main .imagen1{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    padding-left: 25%;
+}
+
+main .Img-sonideras{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    padding-left: 25%;
+}
+
+.refereciaImagen{
+    width: 550px;
+    height: 800px;
+    display: flex;
+    padding-left: 25%;
+}

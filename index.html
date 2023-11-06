@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- nombre de la pestaña del navegador -->
+    <title>Cumbias locotas</title>
+    <!-- conexion con css -->
+    <!-- rel- para la relación. href-para donde esta el archivo  -->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <h1>Esta pagina es para cumbias bien locotas</h1>
+        <img class="imagen1" src="/Imagenes/Foto1.jpeg" alt="">
+
+
+        <!--ul(unorder list) para listas-->
+        <!-- Para los elementos se pone li, para cada lista -->
+        <!-- h3 para header 3. Un tamaño mas pequeño -->
+        <h3>Tipos de cumbias </h3>
+        <ul>
+            <li>Cumbias sonideras </li>
+            <li>Electrocumbias </li>
+            <li>Cumbias rebajadas </li>
+        </ul>
+
+        <!-- OL(order list) -->
+        <h3>Miscelaneos</h3>
+        <ol>
+            <li>Historia </li>
+            <li>Escuchar </li>
+        </ol>
+
+
+        <!-- Menu de navegacion de la pagina web -->
+        <div>
+            <a href="#Seccion1">Cumbias sonideras</a>
+            <a href="#Seccion2">Electrocumbias</a>
+            <a href="#Seccion3">Cumbias rebajadas</a>
+            <a href="#Seccion4">Historia</a>
+        </div>
+
+        <!-- Secciones de texto -->
+
+        <!-- lorem*1  (Para poner texto aleatorio) -->
+        <h3>Cumbias sonideras</h3>
+        <img class="Img-sonideras" src="/Imagenes/Imagen3.jpg" alt="">
+        <p id="Seccion1">Los sonideros son una expresión cultural propia de los barrios marginados de la Ciudad de México. Durante seis décadas de existencia han amenizado bailes callejeros, eventos en salones, festejos privados y fiestas patronales a través de cumbias, salsas, bachatas y un sin fin de ritmos tropicales, mismos que han hecho bailar a colonias enteras. Los bailes sonideros surgieron en las calles de Tepito, Iztapalapa y Peñón de los Baños como una de las pocas alternativas baratas o gratuitas de recreación para sus habitantes. Su éxito propició que dichos bailes se extendieran por toda la República Mexicana y algunos lugares de Estados Unidos.</p>
+
+        <h3 id="Seccion2">Electrocumbias</h3>
+        <img class="Img-sonideras" src="/Imagenes/Imagen2.jpg" alt="">
+        <p>La electrocumbia es un género musical que fusiona la cumbia con sonidos electrónicos. Se originó en 1996, cuando la agrupación Sidestepper encontró la fórmula para mezclar el folclor colombiano con la música electrónica. Desde entonces, han surgido varios exponentes de este género, como Bomba Estéreo, Onda Tropica, Sistema Solar, entre otros. Uno de los artistas más reconocidos de la electrocumbia es Raymix, un ex ingeniero aeroespacial que se declaró homosexual en 2020</p>
+
+        <h3 id="Seccion3">Cumbia rebajada</h3>
+        <img class="Img-sonideras" src="/Imagenes/Imagen4.png" alt="">
+        <p>La cumbia rebajada es un subgénero musical derivado de la cumbia colombiana y la cumbia mexicana surgido en la ciudad de Monterrey, en el norte de México . Este género se caracteriza por tener un tempo más lento que la cumbia original, aproximadamente a 76 pulsaciones por minuto. La cumbia rebajada emula la rítmica y dotación instrumental clásica de la cumbia colombiana (percusiones, bajo y trompetas) y el vallenato (caja, guacharaca y acordeón) . Este género musical se popularizó en México gracias a la influencia de los sonideros de Monterrey, quienes comenzaron a tocar cumbia rebajada en sus fiestas. </p>
+
+        <h3 id="Seccion4">Historia</h3>
+        <img class="Img-sonideras" src="/Imagenes/Imagen4.jpg" alt="">
+        <p>La cumbia es un género musical y baile originario de Colombia. Se cree que la cumbia se originó en la región de la costa Caribe colombiana durante la época de la colonización española. La cumbia es una mezcla de ritmos africanos, indígenas y europeos. El género se popularizó en Colombia durante la década de 1940 y desde entonces ha evolucionado y se ha expandido a otros países de América Latina. La cumbia es conocida por su ritmo alegre y pegajoso, que se toca con instrumentos como la guacharaca, el tambor alegre, la caja vallenata, el acordeón y la guitarra.</p>
+
+
+        <!-- ANCLA QUE NOS LLEVA A OTRO SITIO WEB -->
+        <!-- href, referecia a donde queramos que nos lleve -->
+        <p>Haz click en la imagen para escuchar cumbias </p>
+        <a href="https://www.youtube.com/watch?v=21UNN0BPJtY&ab_channel=PAYINKOLOMBIAS">
+            <img class="refereciaImagen" src="/Imagenes/Imagen6.jpg" alt="">
+        </a>
+
+
+        <!-- FORMULARIOS -->
+        <form>
+            <p> ¿Cual es tu cumbia preferida? </p>
+            <label for="Respuesta">
+                <input type="text">
+                <button>Enviar</button>
+            </label>
+
+            <!-- FORMULARIO INPUNT RADIO -->
+            <!-- name para que las respuestas se asocien a un formulario -->
+            <!-- for se asocia a cada respuesta individualmente -->
+            <p>¿Te gustan las cumbias?</p>
+            <label for="respuesta1">
+                <input type="radio" name="pregunta1">si
+            </label>
+            <label for="respuesta2">
+                <input type="radio" name="pregunta1">no
+            </label>
+
+            <!-- Para el tipo de casilla, cambiamos radio a checkbox -->
+            <!-- Debemos poner el identificador en name a pregunta2, para que se asocien las respuestas -->
+            <p>¿Tu familia escucha cumbias?</p>
+            <label for="respuesta1">
+                <input type="checkbox" name="pregunta2">si
+            </label>
+            <label for="respuesta2">
+                <input type="checkbox" name="pregunta2">no
+            </label>
+
+        </form>
+
+
+
+    </main>
+</body>
+
+</html>
